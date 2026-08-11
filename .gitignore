@@ -1,0 +1,41 @@
+# Python environments and caches
+/venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# JavaScript dependencies and build output
+/node_modules/
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/coverage/
+
+# Environment files and credentials
+**/.env
+**/.env.*
+!**/.env.template
+!**/.env.example
+*.key
+*.pem
+credentials.json
+
+# Generated media and temporary output
+nyaya-ai/brag-output/
+*.log
+*.tmp
+.cache/
+tmp/
+temp/
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
