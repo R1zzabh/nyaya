@@ -39,3 +39,26 @@ temp/
 *.swo
 .DS_Store
 Thumbs.db
+
+# Agent guidance and AI-tool configuration (local-only)
+/AGENTS.md
+/.claude/
+/.ruff_cache/
+/opencode.json
+
+# Internal project docs, notes, and meeting records (local-only)
+/nyaya-ai/docs/
+/nyaya-ai/MOMs.md
+/nyaya-ai/runThese.md
+/nyaya-ai/notebooks/
+/nyaya-ai/notify_me.sh
+/nyaya-ai/test_api_quick.py
+
+# Local working notes and scratch prompts (local-only)
+/frontend_phaseA.md
+/nyaya-ai-project-prompt.md
+
+# Root-level Node tooling leftovers (no Node project at repo root)
+/package.json
+/package-lock.json
+/pnpm-lock.yaml
